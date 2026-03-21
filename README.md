@@ -32,29 +32,33 @@ To run this POC locally, follow these steps:
 ### Installation
 
    ```sh
-   git clone [https://github.com/your_username/patria-tactics.git](https://github.com/your_username/patria-tactics.git)
+   git clone https://github.com/your_username/patria-tactics.git
    npm install
    npm run dev
    ```
 ### Roadmap & Features
-[x] Initial board setup and CSS Grid rendering.
 
-[x] Unit placement and base attributes (HP, Attack, Defense).
+- [x] Initial board setup and CSS Grid rendering.
 
-[ ] Implement strict movement ranges (Grid pathfinding).
+- [x] Unit placement and base attributes (HP, Attack, Defense).
 
-[ ] Turn system toggle (End Turn logic).
+- [ ] Implement strict movement ranges (Grid pathfinding).
 
-[ ] Combat mathematics (Damage calculation & terrain modifiers).
+- [ ] Turn system toggle (End Turn logic).
 
-[ ] Replace basic DOM rendering with PixiJS canvas.
+- [ ] Combat mathematics (Damage calculation & terrain modifiers).
+
+- [ ] Replace basic DOM rendering with PixiJS canvas.
 
 ### Directory Structure
+
+```
 /src
   ├── /game         # Core logic, state, and rules (boardgame.io)
   ├── /board        # Grid rendering and tile interaction
   ├── /ui           # HUD, menus, and React components
   └── App.jsx       # Client wrapper and initialization
+```
 
 ### Contributing
 
